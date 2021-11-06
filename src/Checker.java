@@ -22,7 +22,7 @@ public class Checker {
             if (guess[i] != key.charAt(i)) {
                 return true;}
         }
-        System.out.println("You won!");
+
         return false;
     }
 }

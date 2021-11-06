@@ -26,7 +26,8 @@ public class App {
 
 
         }
-        System.out.println("You failed!");
+        if (!Checker.winCheck(display, key)) System.out.println("You won!");
+        if (Checker.winCheck(display, key)) System.out.println("You failed!");
 
     }
 }
